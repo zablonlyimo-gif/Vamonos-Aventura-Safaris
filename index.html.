@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vamonos Aventura Safaris | Tanzania</title>
+<meta name="description" content="Descubre Tanzania con Vamonos Aventura Safaris. Safaris, naturaleza y aventuras inolvidables.">
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;color:#263329;line-height:1.6}
+header{background:#173d2c;color:white;padding:18px 7%;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap}
+header h2{margin:0;color:#e8bd70}
+nav a{color:white;text-decoration:none;margin:8px;font-size:14px}
+.hero{min-height:530px;background:linear-gradient(#0007,#0008),url('https://images.unsplash.com/photo-1516426122078-c23e76319801?w=1600') center/cover;display:flex;align-items:center;justify-content:center;text-align:center;color:white;padding:35px}
+.hero h1{font-size:clamp(35px,6vw,60px);line-height:1.15}
+.hero p{font-size:19px}
+.btn{display:inline-block;background:#d69c45;color:#17291e;padding:13px 24px;border-radius:5px;text-decoration:none;font-weight:bold;margin-top:12px}
+section{padding:65px 8%;text-align:center}
+section h2{font-size:32px;color:#24543a}
+.intro{max-width:750px;margin:auto}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:25px;margin-top:35px}
+.card{background:#f4f3ed;border-radius:9px;overflow:hidden;text-align:left}
+.card img{width:100%;height:210px;object-fit:cover}
+.card div{padding:18px}
+.card h3{color:#24543a}
+.about{background:#edf1e8}
+.contact{background:#173d2c;color:white}
+.contact h2{color:#e8bd70}
+footer{background:#10291e;color:white;text-align:center;padding:22px}
+</style>
+</head>
+<body>
+
+<header>
+<h2>Vamonos Aventura Safaris</h2>
+<nav>
+<a href="#inicio">Inicio</a>
+<a href="#destinos">Destinos</a>
+<a href="#nosotros">Nosotros</a>
+<a href="#contacto">Contacto</a>
+</nav>
+</header>
+
+<div class="hero" id="inicio">
+<div>
+<h1>Descubre Tanzania con nosotros</h1>
+<p>Vive la aventura. Explora la naturaleza. Crea recuerdos inolvidables.</p>
+<a class="btn" href="#destinos">Explora nuestros destinos</a>
+</div>
+</div>
+
+<section>
+<div class="intro">
+<h2>Bienvenido a Tanzania</h2>
+<p>Te invitamos a descubrir la belleza de Tanzania, un país lleno de paisajes espectaculares, animales salvajes y experiencias únicas. Nuestro objetivo es ayudarte a disfrutar de una aventura inolvidable en África.</p>
+</div>
+</section>
+
+<section id="destinos">
+<h2>Nuestros destinos</h2>
+<p>Explora algunos de los lugares más maravillosos de Tanzania.</p>
+<div class="cards">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=900" alt="Safari en Serengeti">
+<div>
+<h3>Parque Nacional del Serengeti</h3>
+<p>Descubre la gran migración de ñus, leones, elefantes, jirafas y muchos otros animales.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1511497584788-876760111969?w=900" alt="Naturaleza africana">
+<div>
+<h3>Área de Conservación de Ngorongoro</h3>
+<p>Explora el famoso cráter de Ngorongoro y disfruta de sus increíbles paisajes y fauna.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1516426122078-c23e76319801?w=900" alt="Safari en Tanzania">
+<div>
+<h3>Parque Nacional de Tarangire</h3>
+<p>Observa elefantes, baobabs y otros animales en un paisaje africano espectacular.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=900" alt="Montañas">
+<div>
+<h3>Monte Kilimanjaro</h3>
+<p>Descubre la montaña más alta de África y sus impresionantes paisajes.</p>
+</div>
+</div>
+
+</div>
+</section>
+
+<section class="about" id="nosotros">
+<h2>Sobre nosotros</h2>
+<div class="intro">
+<p>Vamonos Aventura Safaris está basado en Arusha, Tanzania. Nos apasiona la naturaleza, la vida salvaje y compartir la belleza de nuestro país con visitantes de todo el mundo.</p>
+<p>Queremos ofrecerte una experiencia auténtica, memorable y llena de aventuras.</p>
+</div>
+</section>
+
+<section id="contacto" class="contact">
+<h2>Planifica tu aventura</h2>
+<p>¿Sueñas con conocer Tanzania? Ponte en contacto con nosotros.</p>
+<p>📍 Arusha, Tanzania</p>
+<p>WhatsApp: Añade aquí tu número de empresa</p>
+<p>Email: Añade aquí tu correo de empresa</p>
+<a class="btn" href="https://wa.me/" target="_blank">Contactar por WhatsApp</a>
+</section>
+
+<footer>
+<p>© 2026 Vamonos Aventura Safaris | Tanzania</p>
+<p>Karibu Tanzania — ¡Bienvenido a Tanzania!</p>
+</footer>
+
+</body>
+</html>
