@@ -4,119 +4,582 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Vamonos Aventura Safaris | Tanzania</title>
+
 <meta name="description" content="Descubre Tanzania con Vamonos Aventura Safaris. Safaris, naturaleza y aventuras inolvidables.">
+
 <style>
-*{box-sizing:border-box}
-body{margin:0;font-family:Arial,sans-serif;color:#263329;line-height:1.6}
-header{background:#173d2c;color:white;padding:18px 7%;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap}
-header h2{margin:0;color:#e8bd70}
-nav a{color:white;text-decoration:none;margin:8px;font-size:14px}
-.hero{min-height:530px;background:linear-gradient(#0007,#0008),url('https://images.unsplash.com/photo-1516426122078-c23e76319801?w=1600') center/cover;display:flex;align-items:center;justify-content:center;text-align:center;color:white;padding:35px}
-.hero h1{font-size:clamp(35px,6vw,60px);line-height:1.15}
-.hero p{font-size:19px}
-.btn{display:inline-block;background:#d69c45;color:#17291e;padding:13px 24px;border-radius:5px;text-decoration:none;font-weight:bold;margin-top:12px}
-section{padding:65px 8%;text-align:center}
-section h2{font-size:32px;color:#24543a}
-.intro{max-width:750px;margin:auto}
-.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:25px;margin-top:35px}
-.card{background:#f4f3ed;border-radius:9px;overflow:hidden;text-align:left}
-.card img{width:100%;height:210px;object-fit:cover}
-.card div{padding:18px}
-.card h3{color:#24543a}
-.about{background:#edf1e8}
-.contact{background:#173d2c;color:white}
-.contact h2{color:#e8bd70}
-footer{background:#10291e;color:white;text-align:center;padding:22px}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #263329;
+    line-height: 1.6;
+}
+
+header {
+    background: #173d2c;
+    color: white;
+    padding: 18px 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header h2 {
+    margin: 0;
+    color: #e8bd70;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 8px;
+    font-size: 14px;
+}
+
+nav a:hover {
+    color: #e8bd70;
+}
+
+.hero {
+    min-height: 530px;
+    background:
+    linear-gradient(#0007,#0008),
+    url('https://images.unsplash.com/photo-1516426122078-c23e76319801?w=1600') center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 35px;
+}
+
+.hero h1 {
+    font-size: clamp(35px,6vw,60px);
+    line-height: 1.15;
+}
+
+.hero p {
+    font-size: 19px;
+}
+
+.btn {
+    display: inline-block;
+    background: #d69c45;
+    color: #17291e;
+    padding: 13px 24px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+section {
+    padding: 65px 8%;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 32px;
+    color: #24543a;
+}
+
+.intro {
+    max-width: 750px;
+    margin: auto;
+}
+
+/* DESTINATIONS */
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(230px,1fr));
+    gap: 25px;
+    margin-top: 35px;
+}
+
+.card {
+    background: #f4f3ed;
+    border-radius: 9px;
+    overflow: hidden;
+    text-align: left;
+}
+
+.card img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+}
+
+.card div {
+    padding: 18px;
+}
+
+.card h3 {
+    color: #24543a;
+}
+
+/* SAFARI PACKAGES */
+
+.packages {
+    background: #f4f3ed;
+}
+
+.package-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 25px;
+    margin-top: 35px;
+}
+
+.package-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: left;
+    box-shadow: 0 4px 12px #00000012;
+}
+
+.package-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.package-content {
+    padding: 22px;
+}
+
+.package-content h3 {
+    color: #24543a;
+    margin-top: 0;
+}
+
+.package-price {
+    color: #a66d20;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.package-content ul {
+    padding-left: 20px;
+}
+
+.package-btn {
+    display: inline-block;
+    background: #173d2c;
+    color: white;
+    padding: 11px 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.package-btn:hover {
+    background: #24543a;
+}
+
+/* ABOUT */
+
+.about {
+    background: #edf1e8;
+}
+
+/* CONTACT */
+
+.contact {
+    background: #173d2c;
+    color: white;
+}
+
+.contact h2 {
+    color: #e8bd70;
+}
+
+.contact a:not(.btn) {
+    color: #e8bd70;
+}
+
+/* SOCIAL MEDIA */
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.social-links a {
+    color: #24543a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social-links a:hover {
+    color: #a66d20;
+}
+
+/* FOOTER */
+
+footer {
+    background: #10291e;
+    color: white;
+    text-align: center;
+    padding: 22px;
+}
+
+/* MOBILE */
+
+@media(max-width:600px) {
+    header {
+        justify-content: center;
+        text-align: center;
+    }
+
+    nav {
+        margin-top: 12px;
+    }
+
+    nav a {
+        display: inline-block;
+    }
+
+    section {
+        padding: 45px 6%;
+    }
+}
 </style>
 </head>
+
 <body>
 
+<!-- HEADER -->
+
 <header>
-<h2>Vamonos Aventura Safaris</h2>
-<nav>
-<a href="#inicio">Inicio</a>
-<a href="#destinos">Destinos</a>
-<a href="#nosotros">Nosotros</a>
-<a href="#contacto">Contacto</a>
-</nav>
+    <h2>Vamonos Aventura Safaris</h2>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#destinos">Destinos</a>
+        <a href="#paquetes">Safari Packages</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
 </header>
 
+<!-- HERO -->
+
 <div class="hero" id="inicio">
-<div>
-<h1>Descubre Tanzania con nosotros</h1>
-<p>Vive la aventura. Explora la naturaleza. Crea recuerdos inolvidables.</p>
-<a class="btn" href="#destinos">Explora nuestros destinos</a>
+    <div>
+        <h1>Descubre Tanzania con nosotros</h1>
+        <p>Vive la aventura. Explora la naturaleza. Crea recuerdos inolvidables.</p>
+        <a class="btn" href="#destinos">Explora nuestros destinos</a>
+    </div>
 </div>
-</div>
+
+<!-- INTRODUCTION -->
 
 <section>
-<div class="intro">
-<h2>Bienvenido a Tanzania</h2>
-<p>Te invitamos a descubrir la belleza de Tanzania, un país lleno de paisajes espectaculares, animales salvajes y experiencias únicas. Nuestro objetivo es ayudarte a disfrutar de una aventura inolvidable en África.</p>
-</div>
+    <div class="intro">
+        <h2>Bienvenido a Tanzania</h2>
+        <p>
+            Te invitamos a descubrir la belleza de Tanzania,
+            un país lleno de paisajes espectaculares, animales
+            salvajes y experiencias únicas. Nuestro objetivo es
+            ayudarte a disfrutar de una aventura inolvidable en África.
+        </p>
+    </div>
 </section>
+
+<!-- DESTINATIONS -->
 
 <section id="destinos">
-<h2>Nuestros destinos</h2>
-<p>Explora algunos de los lugares más maravillosos de Tanzania.</p>
-<div class="cards">
+    <h2>Nuestros destinos</h2>
+    <p>Explora algunos de los lugares más maravillosos de Tanzania.</p>
 
-<div class="card">
-<img src="https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=900" alt="Safari en Serengeti">
-<div>
-<h3>Parque Nacional del Serengeti</h3>
-<p>Descubre la gran migración de ñus, leones, elefantes, jirafas y muchos otros animales.</p>
-</div>
-</div>
+    <div class="cards">
 
-<div class="card">
-<img src="https://images.unsplash.com/photo-1511497584788-876760111969?w=900" alt="Naturaleza africana">
-<div>
-<h3>Área de Conservación de Ngorongoro</h3>
-<p>Explora el famoso cráter de Ngorongoro y disfruta de sus increíbles paisajes y fauna.</p>
-</div>
-</div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=900" alt="Safari en Serengeti">
+            <div>
+                <h3>Parque Nacional del Serengeti</h3>
+                <p>Descubre la gran migración de ñus, leones, elefantes, jirafas y muchos otros animales.</p>
+            </div>
+        </div>
 
-<div class="card">
-<img src="https://images.unsplash.com/photo-1516426122078-c23e76319801?w=900" alt="Safari en Tanzania">
-<div>
-<h3>Parque Nacional de Tarangire</h3>
-<p>Observa elefantes, baobabs y otros animales en un paisaje africano espectacular.</p>
-</div>
-</div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1511497584788-876760111969?w=900" alt="Naturaleza africana">
+            <div>
+                <h3>Área de Conservación de Ngorongoro</h3>
+                <p>Explora el famoso cráter de Ngorongoro y disfruta de sus increíbles paisajes y fauna.</p>
+            </div>
+        </div>
 
-<div class="card">
-<img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=900" alt="Montañas">
-<div>
-<h3>Monte Kilimanjaro</h3>
-<p>Descubre la montaña más alta de África y sus impresionantes paisajes.</p>
-</div>
-</div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1516426122078-c23e76319801?w=900" alt="Safari en Tanzania">
+            <div>
+                <h3>Parque Nacional de Tarangire</h3>
+                <p>Observa elefantes, baobabs y otros animales en un paisaje africano espectacular.</p>
+            </div>
+        </div>
 
-</div>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=900" alt="Montañas">
+            <div>
+                <h3>Monte Kilimanjaro</h3>
+                <p>Descubre la montaña más alta de África y sus impresionantes paisajes.</p>
+            </div>
+        </div>
+
+    </div>
 </section>
+
+<!-- SAFARI PACKAGES -->
+
+<section class="packages" id="paquetes">
+
+    <h2>Nuestros paquetes de safari</h2>
+
+    <p>
+        Descubre Tanzania con nuestros paquetes de safari.
+        <br>
+        Discover Tanzania with our safari packages.
+    </p>
+
+    <div class="package-grid">
+
+        <!-- 3 DAYS -->
+
+        <div class="package-card">
+
+            <img src="https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=900"
+                 alt="Safari de tres días">
+
+            <div class="package-content">
+
+                <h3>Safari de 3 días</h3>
+
+                <p>
+                    <strong>Español:</strong>
+                    Explora el Parque Nacional de Tarangire
+                    y el famoso cráter de Ngorongoro.
+                </p>
+
+                <p>
+                    <strong>English:</strong>
+                    Explore Tarangire National Park
+                    and the famous Ngorongoro Crater.
+                </p>
+
+                <ul>
+                    <li>Tarangire National Park</li>
+                    <li>Ngorongoro Crater</li>
+                    <li>Wildlife viewing</li>
+                </ul>
+
+                <p class="package-price">
+                    Precio bajo solicitud / Price on request
+                </p>
+
+                <a class="package-btn"
+                   href="https://wa.me/255766959102?text=Hola%2C%20quiero%20informacion%20sobre%20el%20safari%20de%203%20dias."
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Solicitar información
+                </a>
+
+            </div>
+        </div>
+
+        <!-- 5 DAYS -->
+
+        <div class="package-card">
+
+            <img src="https://images.unsplash.com/photo-1516426122078-c23e76319801?w=900"
+                 alt="Safari de cinco días">
+
+            <div class="package-content">
+
+                <h3>Safari de 5 días</h3>
+
+                <p>
+                    <strong>Español:</strong>
+                    Disfruta de una aventura inolvidable
+                    visitando tres destinos increíbles.
+                </p>
+
+                <p>
+                    <strong>English:</strong>
+                    Enjoy an unforgettable adventure
+                    visiting three amazing destinations.
+                </p>
+
+                <ul>
+                    <li>Tarangire National Park</li>
+                    <li>Serengeti National Park</li>
+                    <li>Ngorongoro Crater</li>
+                </ul>
+
+                <p class="package-price">
+                    Precio bajo solicitud / Price on request
+                </p>
+
+                <a class="package-btn"
+                   href="https://wa.me/255766959102?text=Hola%2C%20quiero%20informacion%20sobre%20el%20safari%20de%205%20dias."
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Solicitar información
+                </a>
+
+            </div>
+        </div>
+
+        <!-- 7 DAYS -->
+
+        <div class="package-card">
+
+            <img src="https://images.unsplash.com/photo-1511497584788-876760111969?w=900"
+                 alt="Safari de siete días">
+
+            <div class="package-content">
+
+                <h3>Safari de 7 días</h3>
+
+                <p>
+                    <strong>Español:</strong>
+                    Descubre la belleza de Tanzania con
+                    más tiempo para explorar sus parques
+                    y observar la vida salvaje.
+                </p>
+
+                <p>
+                    <strong>English:</strong>
+                    Discover the beauty of Tanzania
+                    with more time to explore its parks
+                    and enjoy wildlife viewing.
+                </p>
+
+                <ul>
+                    <li>Tarangire National Park</li>
+                    <li>Serengeti National Park</li>
+                    <li>Ngorongoro Crater</li>
+                    <li>Extended wildlife experience</li>
+                </ul>
+
+                <p class="package-price">
+                    Precio bajo solicitud / Price on request
+                </p>
+
+                <a class="package-btn"
+                   href="https://wa.me/255766959102?text=Hola%2C%20quiero%20informacion%20sobre%20el%20safari%20de%207%20dias."
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Solicitar información
+                </a>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- ABOUT US -->
 
 <section class="about" id="nosotros">
-<h2>Sobre nosotros</h2>
-<div class="intro">
-<p>Vamonos Aventura Safaris está basado en Arusha, Tanzania. Nos apasiona la naturaleza, la vida salvaje y compartir la belleza de nuestro país con visitantes de todo el mundo.</p>
-<p>Queremos ofrecerte una experiencia auténtica, memorable y llena de aventuras.</p>
-</div>
+
+    <h2>Sobre nosotros</h2>
+
+    <div class="intro">
+
+        <p>
+            Vamonos Aventura Safaris está basado en Arusha, Tanzania.
+            Nos apasiona la naturaleza, la vida salvaje y compartir
+            la belleza de nuestro país con visitantes de todo el mundo.
+        </p>
+
+        <p>
+            Queremos ofrecerte una experiencia auténtica,
+            memorable y llena de aventuras.
+        </p>
+
+    </div>
 </section>
+
+<!-- CONTACT -->
 
 <section id="contacto" class="contact">
-<h2>Planifica tu aventura</h2>
-<p>¿Sueñas con conocer Tanzania? Ponte en contacto con nosotros.</p>
-<p>📍 Arusha, Tanzania</p>
-<p>WhatsApp: Añade aquí tu número de empresa</p>
-<p>Email: Añade aquí tu correo de empresa</p>
-<a class="btn" href="https://wa.me/" target="_blank">Contactar por WhatsApp</a>
+
+    <h2>Planifica tu aventura</h2>
+
+    <p>¿Sueñas con conocer Tanzania? Ponte en contacto con nosotros.</p>
+
+    <p>📍 Arusha, Tanzania</p>
+
+    <p>
+        WhatsApp:
+        <a href="https://wa.me/255766959102">
+            +255 766 959 102
+        </a>
+    </p>
+
+    <p>
+        Email:
+        <a href="mailto:zablonlyimo@gmail.com">
+            zablonlyimo@gmail.com
+        </a>
+    </p>
+
+    <a class="btn"
+       href="https://wa.me/255766959102?text=Hola%2C%20me%20gustar%C3%ADa%20conocer%20vuestros%20safaris%20en%20Tanzania."
+       target="_blank"
+       rel="noopener noreferrer">
+       Contactar por WhatsApp
+    </a>
+
 </section>
 
+<!-- SOCIAL MEDIA -->
+
+<section id="social-media">
+
+    <h2>Follow Vamonos Aventura Safaris</h2>
+
+    <p>Connect with us and discover the beauty of Tanzania!</p>
+
+    <div class="social-links">
+
+        <a href="https://www.instagram.com/zeddylyimo911"
+           target="_blank" rel="noopener noreferrer">
+           Instagram
+        </a>
+
+        <a href="https://www.facebook.com/share/1dpQJBsVxF/"
+           target="_blank" rel="noopener noreferrer">
+           Facebook
+        </a>
+
+        <a href="https://www.tiktok.com/@zeddylyimo911"
+           target="_blank" rel="noopener noreferrer">
+           TikTok
+        </a>
+
+    </div>
+
+</section>
+
+<!-- FOOTER -->
+
 <footer>
-<p>© 2026 Vamonos Aventura Safaris | Tanzania</p>
-<p>Karibu Tanzania — ¡Bienvenido a Tanzania!</p>
+    <p>© 2026 Vamonos Aventura Safaris | Tanzania</p>
+    <p>Karibu Tanzania — ¡Bienvenido a Tanzania!</p>
 </footer>
 
 </body>
