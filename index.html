@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -8,23 +7,24 @@
 <meta name="google-site-verification" content="_32SlnkKVGem4QAqTe7yeFVKKQZN2k9izWArauEB3Es">
 
 <title>Safaris en Tanzania | Vamonos Aventura Safaris</title>
-<meta name="description" content="Descubre Tanzania con Vamonos Aventura Safaris. Explora Serengeti, Ngorongoro y Tarangire con nuestros safaris de 3, 5 y 7 días.">
-<meta name="robots" content="index, follow">
+
+<meta name="description" content="Descubre Tanzania con Vamonos Aventura Safaris. Safaris en Serengeti, Tarangire, Ngorongoro y excursiones al Kilimanjaro.">
+
+<meta name="keywords" content="safaris Tanzania, safari Serengeti, Tarangire, Ngorongoro, Kilimanjaro, Arusha, Tanzania">
+
 <meta name="author" content="Vamonos Aventura Safaris">
+<meta name="robots" content="index, follow">
+
 <link rel="canonical" href="https://vamonosaventurasafaris.netlify.app/">
 
+<meta property="og:title" content="Vamonos Aventura Safaris | Tanzania">
+<meta property="og:description" content="Descubre la belleza de Tanzania con nuestros safaris y aventuras.">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Safaris en Tanzania | Vamonos Aventura Safaris">
-<meta property="og:description" content="Descubre Tanzania y vive una auténtica aventura africana.">
 <meta property="og:url" content="https://vamonosaventurasafaris.netlify.app/">
-<meta property="og:site_name" content="Vamonos Aventura Safaris">
-<meta property="og:locale" content="es_ES">
-<meta property="og:image" content="https://images.unsplash.com/photo-1516426122078-c23e76319801?w=1200">
 
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Safaris en Tanzania | Vamonos Aventura Safaris">
-<meta name="twitter:description" content="Explora Tanzania con nuestros safaris de 3, 5 y 7 días.">
-<meta name="twitter:image" content="https://images.unsplash.com/photo-1516426122078-c23e76319801?w=1200">
+<meta name="twitter:title" content="Vamonos Aventura Safaris">
+<meta name="twitter:description" content="Safaris y aventuras inolvidables en Tanzania.">
 
 <script type="application/ld+json">
 {
@@ -32,7 +32,7 @@
   "@type": "TravelAgency",
   "name": "Vamonos Aventura Safaris",
   "url": "https://vamonosaventurasafaris.netlify.app/",
-  "description": "Agencia de safaris en Arusha, Tanzania.",
+  "description": "Safari tours and adventures in Tanzania.",
   "telephone": "+255766959102",
   "email": "zablonlyimo@gmail.com",
   "address": {
@@ -49,597 +49,620 @@
 </script>
 
 <style>
-* { box-sizing: border-box; }
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
-html { scroll-behavior: smooth; }
+html {
+    scroll-behavior: smooth;
+}
 
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    color: #263329;
+    font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
+    color: #26352b;
+    background: #f7f8f4;
 }
 
 header {
     background: #173d2c;
     color: white;
-    padding: 18px 7%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
+    padding: 18px 5%;
+    text-align: center;
 }
 
-header h2 {
-    margin: 0;
+header h1 {
     color: #e8bd70;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 18px;
 }
 
 nav a {
     color: white;
     text-decoration: none;
-    margin: 8px;
-    font-size: 14px;
+    font-weight: bold;
+    font-size: 15px;
 }
 
-nav a:hover { color: #e8bd70; }
+nav a:hover {
+    color: #e8bd70;
+}
 
 .hero {
-    min-height: 530px;
+    min-height: 430px;
     background:
-        linear-gradient(#0007,#0008),
-        url('https://images.unsplash.com/photo-1516426122078-c23e76319801?w=1600') center/cover;
+        linear-gradient(rgba(0,0,0,.48), rgba(0,0,0,.48)),
+        url("https://images.unsplash.com/photo-1516426122078-c23e76319801?auto=format&fit=crop&w=1800&q=85");
+    background-size: cover;
+    background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     color: white;
-    padding: 35px;
+    padding: 50px 20px;
 }
 
-.hero h1 {
-    font-size: clamp(35px,6vw,60px);
-    line-height: 1.15;
+.hero-content {
+    max-width: 850px;
 }
 
-.hero p { font-size: 19px; }
+.hero h2 {
+    font-size: 38px;
+    margin-bottom: 18px;
+}
 
-.btn {
+.hero p {
+    font-size: 19px;
+    margin-bottom: 25px;
+}
+
+.button {
     display: inline-block;
     background: #d69c45;
-    color: #17291e;
-    padding: 13px 24px;
+    color: #173d2c;
+    padding: 12px 22px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
-    margin-top: 12px;
+    margin: 5px;
+}
+
+.button:hover {
+    background: #e8bd70;
 }
 
 section {
-    padding: 65px 8%;
-    text-align: center;
+    padding: 55px 6%;
 }
 
-section h2 {
-    font-size: 32px;
-    color: #24543a;
+.section-title {
+    text-align: center;
+    color: #173d2c;
+    font-size: 30px;
+    margin-bottom: 18px;
+}
+
+.section-intro {
+    max-width: 850px;
+    margin: 0 auto 30px;
+    text-align: center;
 }
 
 .intro {
-    max-width: 750px;
+    max-width: 950px;
+    margin: auto;
+    text-align: center;
+}
+
+.park-gallery-section {
+    background: #eef2eb;
+}
+
+.park-intro {
+    max-width: 850px;
+    margin: 0 auto 30px;
+    text-align: center;
+}
+
+.park-slideshows {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 25px;
+    max-width: 1150px;
     margin: auto;
 }
 
-.cards, .package-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
-    gap: 25px;
-    margin-top: 35px;
-}
-
-.card, .package-card {
-    background: #f4f3ed;
-    border-radius: 9px;
-    overflow: hidden;
-    text-align: left;
-}
-
-.card > img, .package-card > img {
-    width: 100%;
-    height: 210px;
-    object-fit: cover;
-}
-
-.card-content { padding: 18px; }
-
-.card h3, .package-content h3 { color: #24543a; }
-
-.packages { background: #f4f3ed; }
-
-.package-card {
-    background: white;
-    box-shadow: 0 4px 12px #00000012;
-}
-
-.package-content { padding: 22px; }
-
-.package-content h3 { margin-top: 0; }
-
-.package-price {
-    color: #a66d20;
-    font-weight: bold;
-    font-size: 17px;
-}
-
-.package-content ul { padding-left: 20px; }
-
-.package-btn {
-    display: inline-block;
-    background: #173d2c;
-    color: white;
-    padding: 11px 18px;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 10px;
-    font-weight: bold;
-}
-
-.package-btn:hover { background: #24543a; }
-
-.about { background: #edf1e8; }
-
-.social-section {
-    background: #f4f3ed;
-    padding: 55px 8%;
-    text-align: center;
-}
-
-.social-section h2 { color: #24543a; }
-
-.social-section p { margin-bottom: 25px; }
-
-.social-links {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    flex-wrap: wrap;
-}
-
-.social-links a {
-    display: inline-block;
-    background: #173d2c;
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 13px 23px;
-    border-radius: 6px;
-    transition: 0.2s;
-}
-
-.social-links a:hover {
-    background: #d69c45;
-    color: #17291e;
-    transform: translateY(-2px);
-}
-
-.contact {
-    background: #173d2c;
-    color: white;
-}
-
-.contact h2 { color: #e8bd70; }
-
-.contact a {
-    color: #e8bd70;
-    text-decoration: none;
-}
-
-footer {
-    background: #10291e;
-    color: white;
-    text-align: center;
-    padding: 22px;
-}
-
-footer a {
-    color: #e8bd70;
-    text-decoration: none;
-}
-
-/* Photo galleries */
-
-.park-gallery-section { background: #fff; }
-
-.park-intro {
-    max-width: 780px;
-    margin: 0 auto 24px;
-}
-
 .park-slideshow {
-    background: #f4f3ed;
-    border-radius: 12px;
+    background: white;
+    border-radius: 10px;
     padding: 18px;
-    margin: 28px auto;
-    max-width: 950px;
-    box-shadow: 0 4px 14px #00000012;
+    box-shadow: 0 3px 12px rgba(0,0,0,.10);
+    text-align: center;
 }
 
 .park-slideshow h3 {
     color: #24543a;
-    margin: 4px 0 14px;
-    text-align: center;
+    margin-bottom: 12px;
+    font-size: 21px;
 }
 
 .slideshow-image {
-    width: 100%;
-    height: 440px;
-    object-fit: contain;
-    background: #17291e;
-    border-radius: 8px;
     display: block;
+    width: 100%;
+    height: 270px;
+    object-fit: cover;
+    border-radius: 7px;
+    background: #dce3d9;
 }
 
 .slideshow-caption {
-    text-align: left;
+    margin: 10px 0;
     font-size: 13px;
-    margin: 10px 2px 0;
-    overflow-wrap: anywhere;
 }
 
-.slideshow-caption a { color: #24543a; }
+.slideshow-caption a {
+    color: #24543a;
+    font-weight: bold;
+}
 
 .slideshow-status {
     font-size: 13px;
-    color: #526357;
     margin: 8px 0;
+    color: #555;
 }
 
 .slideshow-controls {
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 10px;
     flex-wrap: wrap;
-    margin-top: 14px;
+    gap: 8px;
 }
 
 .slideshow-controls button {
-    background: #173d2c;
-    color: white;
-    border: 0;
-    padding: 11px 17px;
+    border: none;
     border-radius: 5px;
+    padding: 9px 13px;
+    background: #24543a;
+    color: white;
     cursor: pointer;
     font-size: 14px;
 }
 
 .slideshow-controls button:hover {
     background: #d69c45;
-    color: #17291e;
-}
-
-.slideshow-controls button:focus,
-nav a:focus,
-a:focus {
-    outline: 3px solid #d69c45;
-    outline-offset: 3px;
+    color: #173d2c;
 }
 
 .gallery-message {
     text-align: center;
-    padding: 22px;
-    color: #526357;
+    padding: 15px;
+    color: #555;
 }
 
 .photo-note {
-    font-size: 12px;
-    color: #59665d;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 25px;
+    color: #555;
 }
 
-@media(max-width:600px) {
-    header {
-        justify-content: center;
-        text-align: center;
+.packages {
+    background: white;
+}
+
+.package-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 22px;
+    max-width: 1150px;
+    margin: 30px auto 0;
+}
+
+.package-card {
+    background: #f3f5ef;
+    border-radius: 9px;
+    padding: 24px;
+    border-top: 5px solid #d69c45;
+    text-align: center;
+}
+
+.package-card h3 {
+    color: #24543a;
+    margin-bottom: 12px;
+}
+
+.package-card p {
+    margin-bottom: 12px;
+}
+
+.price {
+    color: #24543a;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.about {
+    background: #eef2eb;
+}
+
+.about-content {
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+}
+
+.social {
+    text-align: center;
+    background: white;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.social-links a {
+    color: white;
+    background: #24543a;
+    padding: 11px 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social-links a:hover {
+    background: #d69c45;
+    color: #173d2c;
+}
+
+.contact {
+    background: #eef2eb;
+    text-align: center;
+}
+
+.contact p {
+    margin: 10px 0;
+}
+
+.contact a {
+    color: #24543a;
+    font-weight: bold;
+}
+
+footer {
+    background: #173d2c;
+    color: white;
+    text-align: center;
+    padding: 22px 15px;
+    font-size: 14px;
+}
+
+@media (max-width: 750px) {
+    .park-slideshows,
+    .package-grid {
+        grid-template-columns: 1fr;
     }
 
-    nav { margin-top: 12px; }
+    .hero h2 {
+        font-size: 29px;
+    }
 
-    nav a { display: inline-block; }
+    .hero p {
+        font-size: 17px;
+    }
 
-    section { padding: 45px 6%; }
+    nav {
+        gap: 12px;
+    }
 
-    .slideshow-image { height: 260px; }
+    .slideshow-image {
+        height: 230px;
+    }
 }
 
-@media(prefers-reduced-motion: reduce) {
-    html { scroll-behavior: auto; }
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
 }
 </style>
-</head>
-
-<body>
+</head><body>
 
 <header>
-    <h2>Vamonos Aventura Safaris</h2>
+    <h1>Vamonos Aventura Safaris</h1>
+
     <nav>
         <a href="#inicio">Inicio</a>
         <a href="#destinos">Destinos</a>
-        <a href="#paquetes">Paquetes de safari</a>
+        <a href="#paquetes">Safaris</a>
         <a href="#nosotros">Nosotros</a>
         <a href="#redes">Redes sociales</a>
         <a href="#contacto">Contacto</a>
     </nav>
 </header>
 
-<div class="hero" id="inicio">
-    <div>
-        <h1>Safaris en Tanzania: descubre África con nosotros</h1>
-        <p>Explora Serengeti, Ngorongoro y Tarangire. Vive la aventura y descubre la increíble vida salvaje de Tanzania.</p>
-        <a class="btn" href="#destinos">Explora nuestros destinos</a>
-    </div>
-</div>
+<main>
 
-<section>
-    <div class="intro">
-        <h2>Bienvenido a Vamonos Aventura Safaris</h2>
-        <p>¿Estás buscando safaris en Tanzania? Te invitamos a descubrir uno de los destinos más impresionantes de África.</p>
-        <p>Tanzania ofrece paisajes espectaculares, animales salvajes y experiencias inolvidables. Explora sus parques nacionales y disfruta de una auténtica aventura africana.</p>
-        <p>Desde Arusha, te acercamos a algunos de los lugares más famosos de Tanzania. Descubre nuestros viajes y paquetes de safari.</p>
+<section class="hero" id="inicio">
+    <div class="hero-content">
+        <h2>Safaris en Tanzania: descubre África con nosotros</h2>
+
+        <p>
+            Vive una aventura inolvidable explorando la naturaleza,
+            los animales salvajes y los paisajes espectaculares de Tanzania.
+        </p>
+
+        <a class="button" href="#paquetes">Descubre nuestros safaris</a>
+
+        <a class="button" href="https://wa.me/255766959102" target="_blank" rel="noopener noreferrer">
+            Contáctanos por WhatsApp
+        </a>
     </div>
 </section>
 
-<section id="destinos" class="park-gallery-section">
-    <h2>Los mejores destinos de safari en Tanzania</h2>
+<section class="intro">
+    <h2 class="section-title">Bienvenidos a Tanzania</h2>
+
+    <p>
+        Bienvenidos a Vamonos Aventura Safaris. Estamos ubicados en Arusha,
+        Tanzania, y queremos ayudarte a descubrir la belleza natural de
+        nuestro país.
+    </p>
+
+    <p>
+        Desde las grandes llanuras del Serengeti hasta el impresionante
+        cráter de Ngorongoro, cada destino ofrece una experiencia especial.
+        Ven a conocer la vida salvaje, los paisajes y la cultura de Tanzania.
+    </p>
+</section>
+
+<section class="park-gallery-section" id="destinos">
+
+    <h2 class="section-title">Descubre nuestros destinos</h2>
 
     <div class="park-intro">
-        <p>Explora fotografías publicadas en Wikimedia Commons. Cada destino tiene su propio slideshow con controles para avanzar, retroceder y pausar.</p>
-        <p class="photo-note">Las imágenes se cargan desde Wikimedia Commons. La autoría y la licencia se muestran debajo de cada fotografía cuando Commons facilita esos datos.</p>
+        <p>
+            Explora algunos de los destinos más conocidos de Tanzania.
+            Cada galería tiene sus propios controles para avanzar,
+            retroceder o pausar las fotografías.
+        </p>
     </div>
 
-    <div id="park-slideshows">
-        <p class="gallery-message">Cargando las galerías de fotografías...</p>
+    <div class="park-slideshows" id="park-slideshows">
+        <p class="gallery-message">Preparando las galerías de fotografías...</p>
     </div>
+
+    <p class="photo-note">
+        Las fotografías se enlazan a Wikimedia Commons. Consulta allí
+        el autor y las condiciones de uso de cada imagen.
+    </p>
+
 </section>
 
 <section class="packages" id="paquetes">
-    <h2>Paquetes de safari en Tanzania</h2>
-    <p>Elige tu aventura y descubre la belleza de los parques nacionales de Tanzania.</p>
+
+    <h2 class="section-title">Nuestros paquetes de safari</h2>
+
+    <p class="section-intro">
+        Descubre Tanzania con itinerarios que te permiten explorar
+        diferentes parques nacionales y disfrutar de la naturaleza.
+        Podemos ayudarte a organizar tu aventura.
+    </p>
 
     <div class="package-grid">
 
-        <div class="package-card">
-            <img src="https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?w=900" alt="Paisaje de safari africano">
+        <article class="package-card">
+            <h3>Safari de 3 días</h3>
 
-            <div class="package-content">
-                <h3>Safari de 3 días en Tanzania</h3>
-                <p>Explora el Parque Nacional de Tarangire y el famoso cráter de Ngorongoro. Disfruta de paisajes naturales y observa la vida salvaje africana.</p>
+            <p><strong>Tarangire y Ngorongoro</strong></p>
 
-                <ul>
-                    <li>Parque Nacional de Tarangire</li>
-                    <li>Cráter de Ngorongoro</li>
-                    <li>Observación de animales salvajes</li>
-                </ul>
+            <p>
+                Explora los elefantes y los baobabs de Tarangire
+                y descubre la extraordinaria fauna del cráter de Ngorongoro.
+            </p>
 
-                <p class="package-price">Precio bajo solicitud</p>
+            <p class="price">Precio bajo solicitud</p>
 
-                <a class="package-btn" href="https://wa.me/255766959102?text=Hola%2C%20quiero%20informacion%20sobre%20el%20safari%20de%203%20dias." target="_blank" rel="noopener noreferrer">Solicitar información</a>
-            </div>
-        </div>
+            <a class="button"
+               href="https://wa.me/255766959102?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20el%20safari%20de%203%20d%C3%ADas."
+               target="_blank"
+               rel="noopener noreferrer">
+                Solicitar información
+            </a>
+        </article>
 
-        <div class="package-card">
-            <img src="https://images.unsplash.com/photo-1516426122078-c23e76319801?w=900" alt="Elefantes en un safari">
+        <article class="package-card">
+            <h3>Safari de 5 días</h3>
 
-            <div class="package-content">
-                <h3>Safari de 5 días en Tanzania</h3>
-                <p>Disfruta de una aventura inolvidable visitando tres destinos increíbles y descubriendo la diversidad de la fauna africana.</p>
+            <p><strong>Tarangire, Serengeti y Ngorongoro</strong></p>
 
-                <ul>
-                    <li>Parque Nacional de Tarangire</li>
-                    <li>Parque Nacional del Serengeti</li>
-                    <li>Cráter de Ngorongoro</li>
-                </ul>
+            <p>
+                Disfruta de una aventura que combina diferentes paisajes,
+                grandes animales y la oportunidad de explorar el Serengeti.
+            </p>
 
-                <p class="package-price">Precio bajo solicitud</p>
+            <p class="price">Precio bajo solicitud</p>
 
-                <a class="package-btn" href="https://wa.me/255766959102?text=Hola%2C%20quiero%20informacion%20sobre%20el%20safari%20de%205%20dias." target="_blank" rel="noopener noreferrer">Solicitar información</a>
-            </div>
-        </div>
+            <a class="button"
+               href="https://wa.me/255766959102?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20el%20safari%20de%205%20d%C3%ADas."
+               target="_blank"
+               rel="noopener noreferrer">
+                Solicitar información
+            </a>
+        </article>
 
-        <div class="package-card">
-            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Wildlife_in_Ngorongoro_Crater.jpg?width=900" alt="Fauna salvaje de Ngorongoro">
+        <article class="package-card">
+            <h3>Safari de 7 días</h3>
 
-            <div class="package-content">
-                <h3>Safari de 7 días en Tanzania</h3>
-                <p>Descubre la belleza de Tanzania con más tiempo para explorar sus parques, paisajes y observar la vida salvaje.</p>
+            <p><strong>Tarangire, Serengeti y Ngorongoro</strong></p>
 
-                <ul>
-                    <li>Parque Nacional de Tarangire</li>
-                    <li>Parque Nacional del Serengeti</li>
-                    <li>Cráter de Ngorongoro</li>
-                    <li>Experiencia ampliada de vida salvaje</li>
-                </ul>
+            <p>
+                Un itinerario más amplio para descubrir diferentes
+                ecosistemas y disfrutar de más tiempo observando
+                la vida salvaje de Tanzania.
+            </p>
 
-                <p class="package-price">Precio bajo solicitud</p>
+            <p class="price">Precio bajo solicitud</p>
 
-                <a class="package-btn" href="https://wa.me/255766959102?text=Hola%2C%20quiero%20informacion%20sobre%20el%20safari%20de%207%20dias." target="_blank" rel="noopener noreferrer">Solicitar información</a>
-            </div>
-        </div>
+            <a class="button"
+               href="https://wa.me/255766959102?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20el%20safari%20de%207%20d%C3%ADas."
+               target="_blank"
+               rel="noopener noreferrer">
+                Solicitar información
+            </a>
+        </article>
 
     </div>
 </section>
 
 <section class="about" id="nosotros">
-    <h2>Sobre Vamonos Aventura Safaris</h2>
 
-    <div class="intro">
-        <p>Vamonos Aventura Safaris está basado en Arusha, Tanzania.</p>
-        <p>Nos apasiona la naturaleza, la vida salvaje y compartir la belleza de nuestro país con visitantes de todo el mundo.</p>
-        <p>Nuestro objetivo es ayudarte a descubrir Tanzania y disfrutar de una experiencia auténtica, memorable y llena de aventuras.</p>
-        <p>Desde Arusha puedes comenzar a descubrir algunos de los parques nacionales más famosos de África.</p>
+    <div class="about-content">
+        <h2 class="section-title">Sobre nosotros</h2>
+
+        <p>
+            Vamonos Aventura Safaris es una iniciativa de turismo
+            basada en Arusha, Tanzania. Nuestro objetivo es compartir
+            la belleza de Tanzania y ayudar a los visitantes a descubrir
+            sus parques nacionales, paisajes y vida salvaje.
+        </p>
+
+        <p>
+            Queremos ofrecer información clara y ayudarte a planificar
+            una experiencia memorable en Tanzania.
+        </p>
     </div>
+
 </section>
 
-<section class="social-section" id="redes">
-    <h2>Síguenos en redes sociales</h2>
-    <p>Descubre nuestras aventuras, fotografías y experiencias en Tanzania.</p>
+<section class="social" id="redes">
+
+    <h2 class="section-title">Síguenos en nuestras redes sociales</h2>
+
+    <p>
+        Descubre nuestras publicaciones y conoce más sobre
+        las aventuras de Tanzania.
+    </p>
 
     <div class="social-links">
-        <a href="https://www.instagram.com/zeddylyimo911" target="_blank" rel="noopener noreferrer">Instagram</a>
-        <a href="https://www.tiktok.com/@zeddylyimo911" target="_blank" rel="noopener noreferrer">TikTok</a>
-        <a href="https://www.facebook.com/share/1dpQJBsVxF/" target="_blank" rel="noopener noreferrer">Facebook</a>
+
+        <a href="https://www.instagram.com/zeddylyimo911"
+           target="_blank"
+           rel="noopener noreferrer">
+            Instagram
+        </a>
+
+        <a href="https://www.tiktok.com/@zeddylyimo911"
+           target="_blank"
+           rel="noopener noreferrer">
+            TikTok
+        </a>
+
+        <a href="https://www.facebook.com/share/1dpQJBsVxF/"
+           target="_blank"
+           rel="noopener noreferrer">
+            Facebook
+        </a>
+
     </div>
+
 </section>
 
-<section id="contacto" class="contact">
-    <h2>Organiza tu safari en Tanzania</h2>
-    <p>¿Sueñas con descubrir Tanzania? Ponte en contacto con nosotros y empieza a planificar tu aventura africana.</p>
-    <p>📍 Arusha, Tanzania</p>
-    <p>WhatsApp: <a href="https://wa.me/255766959102" target="_blank" rel="noopener noreferrer">+255 766 959 102</a></p>
-    <p>Email: <a href="mailto:zablonlyimo@gmail.com">zablonlyimo@gmail.com</a></p>
+<section class="contact" id="contacto">
+
+    <h2 class="section-title">Contáctanos</h2>
+
+    <p>
+        ¿Quieres información sobre nuestros safaris en Tanzania?
+        Escríbenos.
+    </p>
+
+    <p>
+        <strong>Ubicación:</strong> Arusha, Tanzania
+    </p>
+
+    <p>
+        <strong>WhatsApp:</strong>
+        <a href="https://wa.me/255766959102"
+           target="_blank"
+           rel="noopener noreferrer">
+            +255 766 959 102
+        </a>
+    </p>
+
+    <p>
+        <strong>Email:</strong>
+        <a href="mailto:zablonlyimo@gmail.com">
+            zablonlyimo@gmail.com
+        </a>
+    </p>
+
+    <a class="button"
+       href="https://wa.me/255766959102"
+       target="_blank"
+       rel="noopener noreferrer">
+        Enviar mensaje
+    </a>
+
 </section>
 
-<footer>
-    <p>&copy; 2026 Vamonos Aventura Safaris. Todos los derechos reservados.</p>
-    <p>Arusha, Tanzania | Descubre África con nosotros.</p>
-</footer>
-
-<script>
+</main><script>
 /*
- * Wikimedia Commons photo galleries.
- * Each park has its own slideshow.
- */
+  Four independent photo slideshows:
+  1. Serengeti
+  2. Tarangire
+  3. Ngorongoro
+  4. Mount Kilimanjaro
+*/
 
 const parkCollections = [
     {
         name: "Parque Nacional del Serengeti",
-        category: "Category:Serengeti National Park"
+        photos: [
+            "001 Male Lion brothers Snyggve and Tryggve in the Serengeti National Park Photo by Giles Laurent.jpg",
+            "002 Male Lion prowling in the Serengeti National Park Photo by Giles Laurent.jpg"
+        ]
     },
     {
         name: "Parque Nacional de Tarangire",
-        category: "Category:Tarangire National Park"
+        photos: [
+            "Tarangire scenery with baobabs.jpg",
+            "Elephants, Tarangire National Park (10) (28702336145).jpg"
+        ]
     },
     {
         name: "Área de Conservación de Ngorongoro",
-        category: "Category:Ngorongoro Conservation Area"
+        photos: [
+            "Wildlife in Ngorongoro Crater.jpg",
+            "Ngorongoro Crater Overview.jpg"
+        ]
     },
     {
         name: "Monte Kilimanjaro",
-        category: "Category:Mount Kilimanjaro"
+        photos: [
+            "Mount Kilimanjaro.jpg",
+            "Kilimanjaro Tanzania.jpg"
+        ]
     }
 ];
 
 const galleryRoot = document.getElementById("park-slideshows");
 
-function commonsApiUrl(paramsObject) {
-    const params = new URLSearchParams({
-        action: "query",
-        format: "json",
-        origin: "*",
-        ...paramsObject
-    });
+function createSlideshow(park) {
 
-    return "https://commons.wikimedia.org/w/api.php?" + params.toString();
-}
-
-function getMetadata(item, key) {
-    const value = item.imageinfo?.[0]?.extmetadata?.[key]?.value;
-
-    if (!value) return "";
-
-    const holder = document.createElement("div");
-    holder.innerHTML = value;
-
-    return holder.textContent.trim();
-}
-
-function isUsableImage(page) {
-    const info = page.imageinfo?.[0];
-
-    return Boolean(
-        info &&
-        info.url &&
-        (info.mime || "").startsWith("image/")
-    );
-}
-
-async function getCategoryFiles(category, limit = 35) {
-    const url = commonsApiUrl({
-        generator: "categorymembers",
-        gcmtitle: category,
-        gcmtype: "file",
-        gcmnamespace: "6",
-        gcmlimit: String(limit),
-        prop: "imageinfo",
-        iiprop: "url|extmetadata",
-        iiurlwidth: "1400"
-    });
-
-    const response = await fetch(url);
-
-    if (!response.ok) {
-        throw new Error("Error consultando Wikimedia Commons.");
-    }
-
-    const data = await response.json();
-
-    return Object.values(data.query?.pages || {})
-        .filter(isUsableImage);
-}
-
-async function getSubcategories(category) {
-    const url = commonsApiUrl({
-        generator: "categorymembers",
-        gcmtitle: category,
-        gcmtype: "subcat",
-        gcmnamespace: "14",
-        gcmlimit: "25",
-        prop: "title"
-    });
-
-    const response = await fetch(url);
-
-    if (!response.ok) return [];
-
-    const data = await response.json();
-
-    return Object.values(data.query?.pages || {})
-        .map(page => page.title)
-        .filter(Boolean);
-}
-
-async function getParkPhotos(category) {
-    const collected = new Map();
-
-    const directPhotos = await getCategoryFiles(category, 35);
-
-    directPhotos.forEach(photo => {
-        collected.set(photo.title, photo);
-    });
-
-    if (collected.size < 12) {
-        const subcategories = await getSubcategories(category);
-
-        const subcategoryResults = await Promise.allSettled(
-            subcategories.slice(0, 8).map(subcategory =>
-                getCategoryFiles(subcategory, 15)
-            )
-        );
-
-        subcategoryResults.forEach(result => {
-            if (result.status === "fulfilled") {
-                result.value.forEach(photo => {
-                    if (!collected.has(photo.title)) {
-                        collected.set(photo.title, photo);
-                    }
-                });
-            }
-        });
-    }
-
-    return Array.from(collected.values()).slice(0, 15);
-}
-
-function createSlideshow(park, files) {
     const panel = document.createElement("article");
     panel.className = "park-slideshow";
 
@@ -648,174 +671,229 @@ function createSlideshow(park, files) {
 
     const image = document.createElement("img");
     image.className = "slideshow-image";
-    image.alt = park.name + " - fotografía de Wikimedia Commons";
+    image.alt = park.name;
     image.loading = "lazy";
 
-    const caption = document.createElement("div");
+    const caption = document.createElement("p");
     caption.className = "slideshow-caption";
 
-    const status = document.createElement("div");
+    const status = document.createElement("p");
     status.className = "slideshow-status";
     status.setAttribute("aria-live", "polite");
 
     const controls = document.createElement("div");
     controls.className = "slideshow-controls";
 
-    const previous = document.createElement("button");
-    previous.type = "button";
-    previous.textContent = "❮ Anterior";
+    const previousButton = document.createElement("button");
+    previousButton.type = "button";
+    previousButton.textContent = "❮ Anterior";
 
-    const playPause = document.createElement("button");
-    playPause.type = "button";
-    playPause.textContent = "Pausar";
+    const pauseButton = document.createElement("button");
+    pauseButton.type = "button";
+    pauseButton.textContent = "Pausar";
 
-    const next = document.createElement("button");
-    next.type = "button";
-    next.textContent = "Siguiente ❯";
+    const nextButton = document.createElement("button");
+    nextButton.type = "button";
+    nextButton.textContent = "Siguiente ❯";
 
-    controls.append(previous, playPause, next);
-    panel.append(heading, image, caption, status, controls);
+    controls.append(
+        previousButton,
+        pauseButton,
+        nextButton
+    );
+
+    panel.append(
+        heading,
+        image,
+        caption,
+        status,
+        controls
+    );
+
     galleryRoot.appendChild(panel);
 
-    let current = 0;
+    let currentIndex = 0;
     let timer = null;
     let playing = true;
-    let pausedByUser = false;
+    let manuallyPaused = false;
 
-    function displayPhoto() {
-        const file = files[current];
-        const info = file.imageinfo?.[0] || {};
+    function showPhoto() {
 
-        image.src = info.thumburl || info.url;
-        image.alt = getMetadata(file, "ImageDescription") || park.name;
+        const filename = park.photos[currentIndex];
 
-        const author = getMetadata(file, "Artist");
-        const license = getMetadata(file, "LicenseShortName");
+        const imageUrl =
+            "https://commons.wikimedia.org/wiki/Special:FilePath/" +
+            encodeURIComponent(filename) +
+            "?width=1400";
+
+        image.onerror = function () {
+            image.removeAttribute("src");
+
+            status.textContent =
+                "No se pudo cargar esta fotografía. Prueba con la siguiente.";
+
+            caption.textContent =
+                "Puedes consultar la fotografía en Wikimedia Commons.";
+
+            const sourceLink = document.createElement("a");
+
+            sourceLink.href =
+                "https://commons.wikimedia.org/wiki/Category:" +
+                encodeURIComponent(park.name);
+
+            sourceLink.target = "_blank";
+            sourceLink.rel = "noopener noreferrer";
+            sourceLink.textContent = "Consultar Wikimedia Commons";
+
+            caption.appendChild(sourceLink);
+        };
+
+        image.src = imageUrl;
+        image.alt = park.name + ", fotografía " + (currentIndex + 1);
 
         caption.replaceChildren();
 
         const sourceLink = document.createElement("a");
-        sourceLink.href = info.descriptionurl || "https://commons.wikimedia.org/";
+
+        sourceLink.href =
+            "https://commons.wikimedia.org/wiki/File:" +
+            encodeURIComponent(filename.replace(/ /g, "_"));
+
         sourceLink.target = "_blank";
         sourceLink.rel = "noopener noreferrer";
+
         sourceLink.textContent =
             "Ver fotografía, autor y licencia en Wikimedia Commons";
 
-        const details = document.createElement("p");
-
-        details.textContent =
-            (author ? "Autor: " + author + ". " : "Autor: consultar la fuente. ") +
-            (license ? "Licencia: " + license + "." : "Consultar la licencia en la fuente.");
-
-        caption.append(sourceLink, details);
+        caption.appendChild(sourceLink);
 
         status.textContent =
-            "Fotografía " + (current + 1) + " de " + files.length;
+            "Fotografía " +
+            (currentIndex + 1) +
+            " de " +
+            park.photos.length;
     }
 
-    function go(step) {
-        current = (current + step + files.length) % files.length;
-        displayPhoto();
+    function moveSlide(step) {
+
+        currentIndex =
+            (currentIndex + step + park.photos.length) %
+            park.photos.length;
+
+        showPhoto();
     }
 
-    function pause() {
-        if (timer) clearInterval(timer);
+    function stopTimer() {
 
-        timer = null;
+        if (timer !== null) {
+            clearInterval(timer);
+            timer = null;
+        }
+    }
+
+    function pauseSlideshow() {
+
+        stopTimer();
+
         playing = false;
-        playPause.textContent = "Reproducir";
+        pauseButton.textContent = "Reproducir";
     }
 
-    function play() {
-        if (timer) clearInterval(timer);
+    function startSlideshow() {
+
+        stopTimer();
 
         playing = true;
-        playPause.textContent = "Pausar";
+        pauseButton.textContent = "Pausar";
 
-        timer = setInterval(() => go(1), 5000);
+        timer = setInterval(function () {
+            moveSlide(1);
+        }, 6000);
     }
 
-    previous.addEventListener("click", () => go(-1));
-    next.addEventListener("click", () => go(1));
+    previousButton.addEventListener("click", function () {
+        moveSlide(-1);
 
-    playPause.addEventListener("click", () => {
         if (playing) {
-            pausedByUser = true;
-            pause();
+            startSlideshow();
+        }
+    });
+
+    nextButton.addEventListener("click", function () {
+        moveSlide(1);
+
+        if (playing) {
+            startSlideshow();
+        }
+    });
+
+    pauseButton.addEventListener("click", function () {
+
+        if (playing) {
+            manuallyPaused = true;
+            pauseSlideshow();
         } else {
-            pausedByUser = false;
-            play();
+            manuallyPaused = false;
+            startSlideshow();
         }
     });
 
-    panel.addEventListener("mouseenter", () => {
-        if (playing) pause();
+    panel.addEventListener("mouseenter", function () {
+        if (playing) {
+            stopTimer();
+        }
     });
 
-    panel.addEventListener("mouseleave", () => {
-        if (!pausedByUser) play();
+    panel.addEventListener("mouseleave", function () {
+        if (!manuallyPaused) {
+            startSlideshow();
+        }
     });
 
-    panel.addEventListener("focusin", pause);
+    panel.addEventListener("focusin", function () {
+        if (playing) {
+            stopTimer();
+        }
+    });
 
-    displayPhoto();
-    play();
+    panel.addEventListener("focusout", function () {
+        if (!manuallyPaused) {
+            startSlideshow();
+        }
+    });
+
+    showPhoto();
+    startSlideshow();
 }
 
-async function loadPark(park) {
-    const loading = document.createElement("p");
-    loading.className = "gallery-message";
-    loading.textContent = "Cargando fotografías: " + park.name + "...";
+function loadAllGalleries() {
 
-    galleryRoot.appendChild(loading);
-
-    try {
-        const photos = await getParkPhotos(park.category);
-
-        loading.remove();
-
-        if (photos.length === 0) {
-            throw new Error("No se encontraron fotografías.");
-        }
-
-        if (photos.length < 6) {
-            const warning = document.createElement("p");
-            warning.className = "gallery-message";
-            warning.textContent =
-                "Se encontraron menos de seis fotografías para esta galería. Puedes consultar más imágenes en Wikimedia Commons.";
-
-            galleryRoot.appendChild(warning);
-        }
-
-        createSlideshow(park, photos);
-
-    } catch (error) {
-        loading.textContent =
-            "No se pudieron cargar las fotografías ahora. Comprueba tu conexión o consulta Wikimedia Commons.";
-
-        const link = document.createElement("a");
-
-        link.href =
-            "https://commons.wikimedia.org/wiki/" +
-            encodeURIComponent(park.category.replaceAll(" ", "_"));
-
-        link.target = "_blank";
-        link.rel = "noopener noreferrer";
-        link.textContent = "Ver fotografías de " + park.name;
-
-        loading.append(" ", link);
+    if (!galleryRoot) {
+        return;
     }
-}
 
-async function loadAllGalleries() {
     galleryRoot.innerHTML = "";
 
-    for (const park of parkCollections) {
-        await loadPark(park);
-    }
+    parkCollections.forEach(function (park) {
+        createSlideshow(park);
+    });
 }
 
 loadAllGalleries();
+</script>
+
+<footer>
+    <p>
+        &copy; <span id="current-year"></span>
+        Vamonos Aventura Safaris. Todos los derechos reservados.
+    </p>
+
+    <p>Arusha, Tanzania</p>
+</footer>
+
+<script>
+document.getElementById("current-year").textContent =
+    new Date().getFullYear();
 </script>
 
 </body>
