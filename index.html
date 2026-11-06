@@ -8,8 +8,8 @@
 <meta name="google-site-verification" content="_32SlnkKVGem4QAqTe7yeFVKKQZN2k9izWArauEB3Es">
 
 <title>Safaris en Tanzania | Vamonos Aventura Safaris</title>
-<meta name="description" content="Descubre Tanzania con Vamonos Aventura Safaris. Safaris en Serengeti, Tarangire, Ngorongoro, Arusha National Park y excursiones al Kilimanjaro.">
-<meta name="keywords" content="safaris Tanzania, safari Serengeti, Tarangire, Ngorongoro, Arusha National Park, Kilimanjaro, Arusha, Tanzania">
+<meta name="description" content="Descubre Tanzania con Vamonos Aventura Safaris. Safaris en Serengeti, Tarangire, Ngorongoro, Arusha National Park, Napuru Waterfall y Cultural Heritage Centre.">
+<meta name="keywords" content="safaris Tanzania, safari Serengeti, Tarangire, Ngorongoro, Arusha National Park, Napuru Waterfall, Cultural Heritage Centre, Kilimanjaro, Arusha, Tanzania">
 <meta name="author" content="Vamonos Aventura Safaris">
 <meta name="robots" content="index, follow">
 
@@ -254,6 +254,92 @@ section {
     color: #555;
 }
 
+/* NEW ARUSHA DESTINATIONS SECTION */
+
+.arusha-section {
+    background: #f7f8f4;
+}
+
+.arusha-intro {
+    max-width: 850px;
+    margin: 0 auto 30px;
+    text-align: center;
+}
+
+.arusha-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 24px;
+    max-width: 1200px;
+    margin: 30px auto 0;
+    align-items: stretch;
+}
+
+.arusha-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 14px rgba(0,0,0,.10);
+    display: flex;
+    flex-direction: column;
+}
+
+.arusha-card img {
+    display: block;
+    width: 100%;
+    height: 245px;
+    object-fit: cover;
+    background: #dce3d9;
+}
+
+.arusha-card-content {
+    padding: 22px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.arusha-card h3 {
+    color: #24543a;
+    font-size: 21px;
+    margin-bottom: 12px;
+}
+
+.arusha-card h4 {
+    color: #24543a;
+    margin: 13px 0 5px;
+}
+
+.arusha-card p {
+    margin-bottom: 10px;
+}
+
+.arusha-card ul {
+    padding-left: 20px;
+    margin: 5px 0 15px;
+}
+
+.arusha-card li {
+    margin-bottom: 5px;
+}
+
+.arusha-card .photo-credit {
+    font-size: 12px;
+    color: #666;
+    margin-top: auto;
+    padding-top: 12px;
+}
+
+.arusha-card .photo-credit a {
+    color: #24543a;
+    font-weight: bold;
+}
+
+.arusha-card .button {
+    text-align: center;
+    margin-top: 15px;
+}
+
 .packages {
     background: white;
 }
@@ -348,9 +434,16 @@ footer {
     font-size: 14px;
 }
 
+@media (max-width: 900px) {
+    .arusha-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
 @media (max-width: 750px) {
     .park-slideshows,
-    .package-grid {
+    .package-grid,
+    .arusha-grid {
         grid-template-columns: 1fr;
     }
 
@@ -367,6 +460,10 @@ footer {
     }
 
     .slideshow-image {
+        height: 230px;
+    }
+
+    .arusha-card img {
         height: 230px;
     }
 }
@@ -387,6 +484,7 @@ footer {
     <nav>
         <a href="#inicio">Inicio</a>
         <a href="#destinos">Destinos</a>
+        <a href="#arusha">Arusha</a>
         <a href="#paquetes">Safaris</a>
         <a href="#nosotros">Nosotros</a>
         <a href="#redes">Redes sociales</a>
@@ -458,6 +556,256 @@ footer {
 
 </section>
 
+<!-- NEW SECTION: THREE ARUSHA DESTINATIONS -->
+
+<section class="arusha-section" id="arusha">
+
+    <h2 class="section-title">Descubre Arusha</h2>
+
+    <div class="arusha-intro">
+        <p>
+            Arusha no es solamente el punto de partida de muchos safaris.
+            También ofrece lugares especiales para descubrir la naturaleza,
+            las cascadas y la cultura de Tanzania.
+        </p>
+
+        <p>
+            Arusha is more than a starting point for safaris.
+            Discover its beautiful nature, waterfalls and cultural attractions.
+        </p>
+    </div>
+
+    <div class="arusha-grid">
+
+        <!-- 1. ARUSHA NATIONAL PARK -->
+
+        <article class="arusha-card">
+
+            <img
+                src="https://commons.wikimedia.org/wiki/Special:FilePath/Giraffe%2C%20Arusha%20National%20Park%2C%20Tanzania.jpg?width=1200"
+                alt="Giraffe in Arusha National Park, Tanzania"
+                loading="lazy"
+            >
+
+            <div class="arusha-card-content">
+
+                <h3>Arusha National Park</h3>
+
+                <h4>Español</h4>
+
+                <p>
+                    Descubre uno de los parques nacionales más hermosos
+                    del norte de Tanzania. Arusha National Park ofrece
+                    paisajes espectaculares, bosques naturales, lagos,
+                    cráteres y vistas impresionantes del Monte Meru.
+                </p>
+
+                <p>
+                    Durante tu visita puedes observar jirafas, cebras,
+                    búfalos, antílopes y monos colobos blancos y negros.
+                    También puedes disfrutar de los famosos lagos Momella
+                    y del cráter Ngurdoto.
+                </p>
+
+                <h4>English</h4>
+
+                <p>
+                    Discover one of the beautiful national parks in
+                    northern Tanzania. Arusha National Park offers
+                    spectacular landscapes, natural forests, lakes,
+                    craters and impressive views of Mount Meru.
+                </p>
+
+                <p>
+                    During your visit, you may see giraffes, zebras,
+                    buffaloes, antelopes and black-and-white colobus
+                    monkeys. Explore the famous Momella Lakes and
+                    Ngurdoto Crater.
+                </p>
+
+                <h4>Experiences / Experiencias</h4>
+
+                <ul>
+                    <li>Game drives / Safari en vehículo</li>
+                    <li>Walking safaris with an authorized guide / Safari a pie con guía autorizado</li>
+                    <li>Bird watching / Observación de aves</li>
+                    <li>Momella Lakes / Lagos Momella</li>
+                    <li>Mount Meru views / Vistas del Monte Meru</li>
+                </ul>
+
+                <p class="photo-credit">
+                    Photo: Christoph Strässler.
+                    <a href="https://commons.wikimedia.org/wiki/File:Giraffe,_Arusha_National_Park,_Tanzania.jpg"
+                       target="_blank" rel="noopener noreferrer">
+                        Wikimedia Commons – CC BY-SA 2.0
+                    </a>
+                </p>
+
+                <a class="button"
+                   href="https://wa.me/255766959102?text=Hello%2C%20I%20am%20interested%20in%20an%20Arusha%20National%20Park%20trip."
+                   target="_blank" rel="noopener noreferrer">
+                    Consultar / Enquire on WhatsApp
+                </a>
+
+            </div>
+        </article>
+
+
+        <!-- 2. NAPURU WATERFALL -->
+
+        <article class="arusha-card">
+
+            <img
+                src="https://commons.wikimedia.org/wiki/Special:FilePath/Napuru%20waterfalls.jpg?width=1000"
+                alt="Napuru Waterfall on the slopes of Mount Meru"
+                loading="lazy"
+            >
+
+            <div class="arusha-card-content">
+
+                <h3>Napuru Waterfall</h3>
+
+                <h4>Español</h4>
+
+                <p>
+                    Vive una experiencia especial en la naturaleza
+                    visitando las cascadas de Napuru, situadas en las
+                    laderas del Monte Meru, cerca de la ciudad de Arusha.
+                </p>
+
+                <p>
+                    La cascada está rodeada de vegetación y un hermoso
+                    paisaje natural. Es un lugar para disfrutar de una
+                    caminata, tomar fotografías y conocer otro lado
+                    de la belleza natural de Tanzania.
+                </p>
+
+                <h4>English</h4>
+
+                <p>
+                    Enjoy a special nature experience at Napuru Waterfall,
+                    located on the slopes of Mount Meru, close to Arusha city.
+                </p>
+
+                <p>
+                    The waterfall is surrounded by green vegetation
+                    and beautiful natural scenery. It is a lovely place
+                    for a guided walk, photography and discovering
+                    another side of Tanzania's natural beauty.
+                </p>
+
+                <h4>Experiences / Experiencias</h4>
+
+                <ul>
+                    <li>Nature walks / Caminatas por la naturaleza</li>
+                    <li>Waterfall views / Vistas de la cascada</li>
+                    <li>Forest scenery / Paisajes del bosque</li>
+                    <li>Photography / Fotografía</li>
+                    <li>Local nature experience / Experiencia natural local</li>
+                </ul>
+
+                <p class="photo-credit">
+                    Photo: Tobias Kasambala.
+                    <a href="https://commons.wikimedia.org/wiki/File:Napuru_waterfalls.jpg"
+                       target="_blank" rel="noopener noreferrer">
+                        Wikimedia Commons – CC BY-SA 4.0
+                    </a>
+                </p>
+
+                <a class="button"
+                   href="https://wa.me/255766959102?text=Hello%2C%20I%20am%20interested%20in%20visiting%20Napuru%20Waterfall."
+                   target="_blank" rel="noopener noreferrer">
+                    Consultar / Enquire on WhatsApp
+                </a>
+
+            </div>
+        </article>
+
+
+        <!-- 3. CULTURAL HERITAGE CENTRE -->
+
+        <article class="arusha-card">
+
+            <img
+                src="https://commons.wikimedia.org/wiki/Special:FilePath/Arusha%20Cultural%20Heritage%20Centre.jpg?width=1200"
+                alt="Cultural Heritage Centre in Arusha, Tanzania"
+                loading="lazy"
+            >
+
+            <div class="arusha-card-content">
+
+                <h3>Cultural Heritage Centre</h3>
+
+                <h4>Español</h4>
+
+                <p>
+                    Descubre el arte, la historia y la cultura africana
+                    en el Cultural Heritage Centre de Arusha.
+                    Este destino reúne una gran variedad de obras de arte,
+                    esculturas, artesanías y creaciones de artistas africanos.
+                </p>
+
+                <p>
+                    Los visitantes pueden explorar galerías, descubrir
+                    la artesanía local, conocer las piedras preciosas
+                    de Tanzania y aprender más sobre el patrimonio
+                    cultural de África Oriental.
+                </p>
+
+                <h4>English</h4>
+
+                <p>
+                    Discover African art, history and culture at the
+                    Cultural Heritage Centre in Arusha.
+                    This destination brings together artworks,
+                    sculptures, handmade crafts and creations
+                    by African artists.
+                </p>
+
+                <p>
+                    Visitors can explore art galleries, discover local
+                    craftsmanship, learn about Tanzania's precious
+                    gemstones and experience the cultural heritage
+                    of East Africa.
+                </p>
+
+                <h4>Experiences / Experiencias</h4>
+
+                <ul>
+                    <li>African art / Arte africano</li>
+                    <li>Traditional crafts / Artesanía tradicional</li>
+                    <li>Gemstones / Piedras preciosas</li>
+                    <li>Art galleries / Galerías de arte</li>
+                    <li>Cultural experiences / Experiencias culturales</li>
+                </ul>
+
+                <p class="photo-credit">
+                    Photo: George Lamson.
+                    <a href="https://commons.wikimedia.org/wiki/File:Arusha_Cultural_Heritage_Centre.jpg"
+                       target="_blank" rel="noopener noreferrer">
+                        Wikimedia Commons – CC BY-SA 2.0
+                    </a>
+                </p>
+
+                <a class="button"
+                   href="https://wa.me/255766959102?text=Hello%2C%20I%20am%20interested%20in%20visiting%20the%20Cultural%20Heritage%20Centre."
+                   target="_blank" rel="noopener noreferrer">
+                    Consultar / Enquire on WhatsApp
+                </a>
+
+            </div>
+        </article>
+
+    </div>
+
+    <p class="photo-note">
+        Las fotografías pertenecen a sus respectivos autores.
+        Consulta los enlaces de Wikimedia Commons para conocer
+        las licencias y condiciones de uso.
+    </p>
+
+</section>
+
 <section class="packages" id="paquetes">
 
     <h2 class="section-title">Nuestros paquetes de safari</h2>
@@ -525,7 +873,7 @@ footer {
             </a>
         </article>
 
-        <!-- NUEVO PAQUETE: SAFARI DE 1 DÍA EN ARUSHA -->
+        <!-- SAFARI DE 1 DÍA EN ARUSHA -->
 
         <article class="package-card">
             <h3>Safari de 1 día – Arusha</h3>
