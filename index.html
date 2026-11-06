@@ -8,8 +8,8 @@
 <meta name="google-site-verification" content="_32SlnkKVGem4QAqTe7yeFVKKQZN2k9izWArauEB3Es">
 
 <title>Safaris en Tanzania | Vamonos Aventura Safaris</title>
-<meta name="description" content="Discover Tanzania with Vamonos Aventura Safaris. Explore Serengeti, Tarangire, Ngorongoro, Arusha and Lake Manyara National Parks, plus Mount Kilimanjaro, Napuru Waterfall and Cultural Heritage Centre.">
-<meta name="keywords" content="Tanzania safaris, Serengeti, Tarangire, Ngorongoro, Arusha National Park, Lake Manyara National Park, Mount Kilimanjaro, Napuru Waterfall, Cultural Heritage Centre, Arusha">
+<meta name="description" content="Discover Tanzania with Vamonos Aventura Safaris. Explore Serengeti, Tarangire, Ngorongoro, Arusha and Lake Manyara National Parks, Mount Kilimanjaro, Napuru Waterfall, Cultural Heritage Centre and Lake Duluti.">
+<meta name="keywords" content="Tanzania safaris, Serengeti, Tarangire, Ngorongoro, Arusha National Park, Lake Manyara National Park, Mount Kilimanjaro, Napuru Waterfall, Cultural Heritage Centre, Lake Duluti, Arusha">
 <meta name="author" content="Vamonos Aventura Safaris">
 <meta name="robots" content="index, follow">
 
@@ -270,7 +270,7 @@ section {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 24px;
-    max-width: 1000px;
+    max-width: 1100px;
     margin: 30px auto 0;
     align-items: stretch;
 }
@@ -338,6 +338,61 @@ section {
 .arusha-card .button {
     text-align: center;
     margin-top: 15px;
+}
+
+/* LAKE DULUTI PHOTO SLIDESHOW */
+
+.duluti-gallery {
+    padding: 18px 18px 0;
+}
+
+.duluti-gallery img {
+    width: 100%;
+    height: 245px;
+    object-fit: cover;
+    border-radius: 7px;
+    background: #dce3d9;
+}
+
+.duluti-caption {
+    font-size: 12px;
+    color: #555;
+    padding: 9px 0;
+    overflow-wrap: anywhere;
+}
+
+.duluti-caption a {
+    color: #24543a;
+    font-weight: bold;
+}
+
+.duluti-controls {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+}
+
+.duluti-controls button {
+    border: none;
+    border-radius: 5px;
+    padding: 9px 13px;
+    background: #24543a;
+    color: white;
+    cursor: pointer;
+}
+
+.duluti-controls button:hover {
+    background: #d69c45;
+    color: #173d2c;
+}
+
+.duluti-status {
+    text-align: center;
+    color: #555;
+    font-size: 13px;
+    padding-bottom: 8px;
 }
 
 .packages {
@@ -463,7 +518,8 @@ footer {
         height: 230px;
     }
 
-    .arusha-card img {
+    .arusha-card img,
+    .duluti-gallery img {
         height: 230px;
     }
 }
@@ -557,8 +613,6 @@ footer {
 
 </section>
 
-<!-- ARUSHA ATTRACTIONS: TWO PLACES ONLY -->
-
 <section class="arusha-section" id="arusha">
 
     <h2 class="section-title">Descubre Arusha</h2>
@@ -567,12 +621,12 @@ footer {
         <p>
             Arusha no es solamente el punto de partida de muchos safaris.
             También ofrece lugares especiales para descubrir la naturaleza,
-            las cascadas y la cultura de Tanzania.
+            las cascadas, los lagos y la cultura de Tanzania.
         </p>
 
         <p>
             Arusha is more than a starting point for safaris.
-            Discover its beautiful nature, waterfalls and cultural attractions.
+            Discover its beautiful nature, waterfalls, lakes and cultural attractions.
         </p>
     </div>
 
@@ -649,7 +703,6 @@ footer {
             </div>
         </article>
 
-
         <!-- 2. CULTURAL HERITAGE CENTRE -->
 
         <article class="arusha-card">
@@ -718,6 +771,99 @@ footer {
 
                 <a class="button"
                    href="https://wa.me/255766959102?text=Hello%2C%20I%20am%20interested%20in%20visiting%20the%20Cultural%20Heritage%20Centre."
+                   target="_blank" rel="noopener noreferrer">
+                    Consultar / Enquire on WhatsApp
+                </a>
+
+            </div>
+        </article>
+
+        <!-- 3. LAKE DULUTI -->
+
+        <article class="arusha-card">
+
+            <div class="duluti-gallery">
+
+                <img
+                    id="duluti-image"
+                    src="https://placehold.co/900x550/e0e8df/24543a?text=Lake+Duluti"
+                    alt="Lake Duluti near Arusha, Tanzania"
+                    loading="lazy"
+                >
+
+                <p class="duluti-status" id="duluti-status" aria-live="polite">
+                    Buscando fotografías de Lake Duluti...
+                </p>
+
+                <div class="duluti-controls">
+                    <button type="button" id="duluti-prev">
+                        ❮ Anterior
+                    </button>
+
+                    <button type="button" id="duluti-next">
+                        Siguiente ❯
+                    </button>
+                </div>
+
+                <p class="duluti-caption" id="duluti-caption">
+                    Fotografías de Wikimedia Commons.
+                </p>
+
+            </div>
+
+            <div class="arusha-card-content">
+
+                <h3>Lake Duluti</h3>
+
+                <h4>Español</h4>
+
+                <p>
+                    Descubre el hermoso lago Duluti, un lago de cráter
+                    situado cerca de Arusha, al pie del Monte Meru.
+                    Rodeado de vegetación y bosque, es un destino
+                    tranquilo para disfrutar de la naturaleza.
+                </p>
+
+                <p>
+                    Los visitantes pueden disfrutar de paseos por
+                    los alrededores del lago, observar aves y descubrir
+                    un paisaje diferente de Tanzania, lejos del movimiento
+                    de la ciudad.
+                </p>
+
+                <h4>English</h4>
+
+                <p>
+                    Discover beautiful Lake Duluti, a crater lake
+                    located near Arusha at the foot of Mount Meru.
+                    Surrounded by forest and vegetation, it is a peaceful
+                    destination for nature lovers.
+                </p>
+
+                <p>
+                    Visitors can enjoy walks around the lake,
+                    birdwatching and discovering a different side
+                    of Tanzania's natural landscape.
+                </p>
+
+                <h4>Experiences / Experiencias</h4>
+
+                <ul>
+                    <li>Lake views / Vistas del lago</li>
+                    <li>Birdwatching / Observación de aves</li>
+                    <li>Nature walks / Caminatas por la naturaleza</li>
+                    <li>Canoeing / Paseos en canoa</li>
+                    <li>Photography / Fotografía</li>
+                </ul>
+
+                <p class="photo-credit">
+                    Las fotografías se acompañan de enlaces a sus páginas
+                    originales de Wikimedia Commons, con información
+                    disponible sobre autoría y licencia.
+                </p>
+
+                <a class="button"
+                   href="https://wa.me/255766959102?text=Hello%2C%20I%20am%20interested%20in%20visiting%20Lake%20Duluti."
                    target="_blank" rel="noopener noreferrer">
                     Consultar / Enquire on WhatsApp
                 </a>
@@ -801,8 +947,6 @@ footer {
                 Solicitar información
             </a>
         </article>
-
-        <!-- ONE-DAY ARUSHA SAFARI -->
 
         <article class="package-card">
             <h3>Safari de 1 día – Arusha</h3>
@@ -1024,20 +1168,9 @@ function createSlideshow(park) {
     nextButton.type = "button";
     nextButton.textContent = "Siguiente ❯";
 
-    controls.append(
-        previousButton,
-        pauseButton,
-        nextButton
-    );
+    controls.append(previousButton, pauseButton, nextButton);
 
-    panel.append(
-        heading,
-        image,
-        caption,
-        status,
-        controls
-    );
-
+    panel.append(heading, image, caption, status, controls);
     galleryRoot.appendChild(panel);
 
     let currentIndex = 0;
@@ -1072,7 +1205,6 @@ function createSlideshow(park) {
 
             fallbackLink.target = "_blank";
             fallbackLink.rel = "noopener noreferrer";
-
             fallbackLink.textContent =
                 "Check this photograph on Wikimedia Commons";
 
@@ -1099,23 +1231,18 @@ function createSlideshow(park) {
         caption.appendChild(sourceLink);
 
         status.textContent =
-            "Fotografía " +
-            (currentIndex + 1) +
-            " de " +
-            park.photos.length;
+            "Fotografía " + (currentIndex + 1) +
+            " de " + park.photos.length;
     }
 
     function moveSlide(step) {
-
         currentIndex =
             (currentIndex + step + park.photos.length) %
             park.photos.length;
-
         showPhoto();
     }
 
     function stopTimer() {
-
         if (timer !== null) {
             clearInterval(timer);
             timer = null;
@@ -1147,9 +1274,7 @@ function createSlideshow(park) {
     });
 
     pauseButton.addEventListener("click", function () {
-
         manuallyPaused = !manuallyPaused;
-
         updateSlideshow();
     });
 
@@ -1169,7 +1294,6 @@ function createSlideshow(park) {
     });
 
     panel.addEventListener("focusout", function (event) {
-
         if (!panel.contains(event.relatedTarget)) {
             keyboardInside = false;
             updateSlideshow();
@@ -1181,10 +1305,7 @@ function createSlideshow(park) {
 }
 
 function loadAllGalleries() {
-
-    if (!galleryRoot) {
-        return;
-    }
+    if (!galleryRoot) return;
 
     galleryRoot.innerHTML = "";
 
@@ -1194,6 +1315,183 @@ function loadAllGalleries() {
 }
 
 loadAllGalleries();
+
+/* LAKE DULUTI: SEARCH WIKIMEDIA COMMONS FOR REAL PHOTOGRAPHS */
+
+async function loadDulutiGallery() {
+
+    const image = document.getElementById("duluti-image");
+    const caption = document.getElementById("duluti-caption");
+    const status = document.getElementById("duluti-status");
+    const previous = document.getElementById("duluti-prev");
+    const next = document.getElementById("duluti-next");
+
+    if (!image || !caption || !status || !previous || !next) {
+        return;
+    }
+
+    let photos = [];
+    let currentIndex = 0;
+
+    function showDulutiPhoto() {
+
+        if (!photos.length) return;
+
+        const photo = photos[currentIndex];
+
+        image.src = photo.thumbnail || photo.url;
+        image.alt = photo.title + " — Lake Duluti";
+
+        status.textContent =
+            "Fotografía " + (currentIndex + 1) +
+            " de " + photos.length;
+
+        caption.replaceChildren();
+
+        const fileLink = document.createElement("a");
+        fileLink.href = photo.page;
+        fileLink.target = "_blank";
+        fileLink.rel = "noopener noreferrer";
+        fileLink.textContent = photo.title;
+
+        caption.appendChild(fileLink);
+
+        const details = document.createElement("span");
+
+        const artist = photo.artist || "Autor no indicado";
+        const licence = photo.licence || "Consultar licencia";
+
+        details.textContent =
+            " | Autor: " + artist + " | Licencia: " + licence + " ";
+
+        caption.appendChild(details);
+
+        if (photo.licenceUrl) {
+            const licenceLink = document.createElement("a");
+            licenceLink.href = photo.licenceUrl;
+            licenceLink.target = "_blank";
+            licenceLink.rel = "noopener noreferrer";
+            licenceLink.textContent = "Ver licencia";
+            caption.appendChild(licenceLink);
+        }
+    }
+
+    previous.addEventListener("click", function () {
+        if (!photos.length) return;
+
+        currentIndex =
+            (currentIndex - 1 + photos.length) % photos.length;
+
+        showDulutiPhoto();
+    });
+
+    next.addEventListener("click", function () {
+        if (!photos.length) return;
+
+        currentIndex = (currentIndex + 1) % photos.length;
+        showDulutiPhoto();
+    });
+
+    try {
+
+        const apiUrl = new URL(
+            "https://commons.wikimedia.org/w/api.php"
+        );
+
+        apiUrl.search = new URLSearchParams({
+            action: "query",
+            generator: "search",
+            gsrsearch: "Lake Duluti Tanzania",
+            gsrnamespace: "6",
+            gsrlimit: "30",
+            prop: "imageinfo",
+            iiprop: "url|extmetadata",
+            iiurlwidth: "1200",
+            format: "json",
+            origin: "*"
+        }).toString();
+
+        const response = await fetch(apiUrl.toString());
+
+        if (!response.ok) {
+            throw new Error("Wikimedia request failed");
+        }
+
+        const data = await response.json();
+
+        const pages = data.query && data.query.pages
+            ? Object.values(data.query.pages)
+            : [];
+
+        photos = pages
+            .filter(function (page) {
+                return page.imageinfo && page.imageinfo.length > 0;
+            })
+            .map(function (page) {
+
+                const info = page.imageinfo[0];
+                const metadata = info.extmetadata || {};
+
+                function metadataText(key) {
+                    const item = metadata[key];
+                    return item && item.value
+                        ? item.value.replace(/<[^>]*>/g, "").trim()
+                        : "";
+                }
+
+                return {
+                    title: page.title.replace(/^File:/, ""),
+                    url: info.url,
+                    thumbnail: info.thumburl || info.url,
+                    page: info.descriptionurl,
+                    artist: metadataText("Artist"),
+                    licence: metadataText("LicenseShortName"),
+                    licenceUrl: metadataText("LicenseUrl")
+                };
+            })
+            .filter(function (photo) {
+                return photo.url && photo.page;
+            });
+
+        if (!photos.length) {
+            status.textContent =
+                "No se encontraron fotografías disponibles. Consulta Wikimedia Commons.";
+            caption.replaceChildren();
+
+            const link = document.createElement("a");
+            link.href =
+                "https://commons.wikimedia.org/w/index.php?search=Lake+Duluti+Tanzania&title=Special:MediaSearch&type=image";
+            link.target = "_blank";
+            link.rel = "noopener noreferrer";
+            link.textContent = "Buscar fotografías de Lake Duluti";
+
+            caption.appendChild(link);
+            image.removeAttribute("src");
+            return;
+        }
+
+        showDulutiPhoto();
+
+    } catch (error) {
+
+        status.textContent =
+            "No se pudieron cargar las fotografías automáticamente.";
+
+        caption.replaceChildren();
+
+        const link = document.createElement("a");
+        link.href =
+            "https://commons.wikimedia.org/w/index.php?search=Lake+Duluti+Tanzania&title=Special:MediaSearch&type=image";
+        link.target = "_blank";
+        link.rel = "noopener noreferrer";
+        link.textContent =
+            "Buscar fotografías de Lake Duluti en Wikimedia Commons";
+
+        caption.appendChild(link);
+    }
+}
+
+loadDulutiGallery();
 </script>
 
 </main>
